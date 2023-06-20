@@ -10,3 +10,9 @@ let sortedArr = arr1.sort((a,b)=>b-a)
 let sum = arr1[0]+arr1[1]
 console.log(sum)
 
+// reverse string
+
+let str1 = "Hello";
+let revstr = ((str1.split("")).reverse()).join("");
+console.log(revstr)
+
