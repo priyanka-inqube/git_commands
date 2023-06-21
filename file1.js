@@ -1,4 +1,3 @@
-'use strict';
 let arr1 =[5,6,7,8,1,4,3,5,6,7,2]
 
 // remove duplicates from array
@@ -17,21 +16,3 @@ let str1 = "Hello";
 let revstr = ((str1.split("")).reverse()).join("");
 console.log(revstr)
 
-
-
-// function hello() {
-//     var a = b = 5; // b=5; var a = b;
-//   };
-//   hello()
-  
-//   console.log(b); // accidental global variable
-
-//   let arr = [6,4,3,7,4,8,9]
-
-//   let arr2 = arr;
-
-//   arr = []  // new blank array created & assigned so original array remains same
-// arr.length = 0 // original array changes
-// arr.splice(0,arr.length)  // original array changes
-//   console.log(arr)
-//   console.log(arr2)
